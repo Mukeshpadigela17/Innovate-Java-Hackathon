@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+retry:
+  fixed:
+    interval: 5000
+  backoff:
+    base: 2000
+
+spring:
+  quartz:
+    job-store-type: memory
